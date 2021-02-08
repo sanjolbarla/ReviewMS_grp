@@ -1,0 +1,28 @@
+{ 
+  "reviews" : [
+      {
+          "timeStamp" : "8/2/2021  11:32:19 am", 
+          "username" : "Sanjol", 
+          "reviewTitle" : "mind blowing performance", 
+          "review" : "Beautifully bright 6.1-inch Super Retina XDR display.1 Ceramic Shield with four times better drop performance.2 Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attachment and faster wireless charging.3 Let the fun begin."
+      }, 
+      {
+          "timeStamp" : "8/2/2021  11:32:47 am", 
+          "username" : "Harsh", 
+          "reviewTitle" : "mind blowing performance", 
+          "review" : "Beautifully bright 6.1-inch Super Retina XDR display.1 Ceramic Shield with four times better drop performance.2 Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attachment and faster wireless charging.3 Let the fun begin."
+      }, 
+      {
+          "timeStamp" : "8/2/2021  12:25:42 pm", 
+          "username" : "Nikunj", 
+          "reviewTitle" : "mind blowing performance", 
+          "review" : "Beautifully bright 6.1-inch Super Retina XDR display.1 Ceramic Shield with four times better drop performance.2 Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attachment and faster wireless charging.3 Let the fun begin."
+      }
+  ], 
+  "subjectTitle" : "iphone 12", 
+  "snippet" : {
+      "username" : "Nikunj", 
+      "date" : "8/2/2021", 
+      "desc" : "Beautifully bright 6.1-inch Super Retina XDR display.1 Ceramic Shield with four times better drop pe..."
+  }
+}
