@@ -49,7 +49,11 @@ app.post("/postReview", async (req, res) => {
     reviewTitle === "" ||
     reviewBody === ""
   ) {
-    res.send("Please enter all details.");
+    const createFailure = {
+      status: "error",
+      message: "Something went wrong",
+    };
+    res.send(JSON.stringify(createFailure));
   } else {
     var flag = 0;
 
@@ -75,7 +79,11 @@ app.post("/postReview", async (req, res) => {
           { subjectTitle: subjectTitle },
           { snippet: snippet, reviews: arr }
         );
-        res.send("review updated successfully1");
+        const createSuccess = {
+          status: "Success",
+          message: "Review Created Succesfully!",
+        };
+        res.send(JSON.stringify(createSuccess));
         flag = 1;
         break;
       }
@@ -101,7 +109,12 @@ app.post("/postReview", async (req, res) => {
         reviews,
       });
       await new_review.save();
-      res.send("review updated successfully2");
+      // res.send("review updated successfully2");
+      const createSuccess = {
+        status: "Success",
+        message: "Review Created Succesfully!",
+      };
+      res.send(JSON.stringify(createSuccess));
     }
   }
 });
